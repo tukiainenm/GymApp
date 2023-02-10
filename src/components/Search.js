@@ -2,6 +2,7 @@ import { View, TextInput, StyleSheet } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import { elevation } from '../common/styles';
 
+//Function for searching different workout routines
 export default function Search() {
     return (
         <View style={[styles.container, styles.elevation]}>
@@ -11,6 +12,7 @@ export default function Search() {
     )
 }
 
+//Styles for the search component
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',

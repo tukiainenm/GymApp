@@ -1,5 +1,6 @@
 import { Text, View, StyleSheet } from 'react-native';
 
+//Simple headers for the workout app
 export default function Header() {
     return (
         <View style={styles.container}>
@@ -9,6 +10,7 @@ export default function Header() {
     )
 }
 
+//Styles for the headers
 const styles = StyleSheet.create({
     container: {
         marginTop: 40,
