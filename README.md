@@ -1,2 +1,2 @@
 # GymApp
-React Native app for searching different workout templates
+A React Native app for searching different workout templates
